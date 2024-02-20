@@ -33,7 +33,7 @@ jobs:
         id: toolchain
         uses: dtolnay/rust-toolchain@master
         with:
-          toolchain: stable
+          toolchain: 1.69.0
           components: clippy, rustfmt
 
       - uses: actions/cache@v3
